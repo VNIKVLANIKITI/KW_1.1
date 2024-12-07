@@ -1,0 +1,51 @@
+{% extends 'letters/base.html' %}
+        {% block content %}
+          <h2>{{ name_list }}</h2>
+          <div class="row">
+            <div class="album py-5 bg-light">
+              <div class="container">
+          
+                <div class="row">
+                  {% for object in object_list %}
+                  <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                      <div class="card-body">
+                        <p class="card-text">Наименование: {{ object|title }}</p>
+                        <p class="card-text">Попыток: {{ object.attempts_count }}</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <a href="{% url 'mailing_send' object.pk %}" type="button" class="btn btn-sm btn-outline-secondary">Отправить</a>
+                            <a href="{% url 'mailing_delete' object.pk %}" type="button" class="btn btn-sm btn-outline-secondary">Удалить</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div >
+            <a href="{% url 'create_mailing' %}" class="btn btn-primary btn-lg">Создать рассылку</a>
+          </div>
+          <h2>Статистика</h2>
+          <div class="table-responsive">
+            <table class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th>№</th>
+                  <th>Количество записей</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>{{ object_list.count }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          {% endblock %}
+
+

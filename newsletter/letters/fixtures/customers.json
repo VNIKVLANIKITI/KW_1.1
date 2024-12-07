@@ -1,0 +1,112 @@
+[
+{
+  "model": "letters.customer",
+  "pk": 3,
+  "fields": {
+    "email": "ivan.petrov@example.com",
+    "first_name": "Иван",
+    "last_name": "Петров",
+    "patronymic": "Иванович",
+    "comment": "Постоянный клиент, всегда оставляет положительные отзывы."
+  }
+},
+{
+  "model": "letters.customer",
+  "pk": 4,
+  "fields": {
+    "email": "maria.sidorova@example.com",
+    "first_name": "Мария",
+    "last_name": "Сидорова",
+    "patronymic": "Николаевна",
+    "comment": "Новый клиент, заинтересована в акциях и спецпредложениях."
+  }
+},
+{
+  "model": "letters.customer",
+  "pk": 5,
+  "fields": {
+    "email": "alexey.kuznetsov@example.com",
+    "first_name": "Алексей",
+    "last_name": "Кузнецов",
+    "patronymic": "Сергеевич",
+    "comment": "Часто делает крупные заказы, предпочитает премиальные товары."
+  }
+},
+{
+  "model": "letters.customer",
+  "pk": 6,
+  "fields": {
+    "email": "elena.vasileva@example.com",
+    "first_name": "Елена",
+    "last_name": "Васильева",
+    "patronymic": "Михайловна",
+    "comment": "Регулярно оформляет подписку на новости компании."
+  }
+},
+{
+  "model": "letters.customer",
+  "pk": 7,
+  "fields": {
+    "email": "nikolay.smirnov@example.com",
+    "first_name": "Николай",
+    "last_name": "Смирнов",
+    "patronymic": "Викторович",
+    "comment": "Активен в социальных сетях, делится отзывами о продуктах."
+  }
+},
+{
+  "model": "letters.customer",
+  "pk": 8,
+  "fields": {
+    "email": "anna.orlova@example.com",
+    "first_name": "Анна",
+    "last_name": "Орлова",
+    "patronymic": "Владимировна",
+    "comment": "Участвует в программах лояльности, часто использует бонусы."
+  }
+},
+{
+  "model": "letters.customer",
+  "pk": 9,
+  "fields": {
+    "email": "dmitry.fedorov@example.com",
+    "first_name": "Дмитрий",
+    "last_name": "Фёдоров",
+    "patronymic": "Александрович",
+    "comment": "Предпочитает товары для активного отдыха и спорта."
+  }
+},
+{
+  "model": "letters.customer",
+  "pk": 10,
+  "fields": {
+    "email": "olga.zakharova@example.com",
+    "first_name": "Ольга",
+    "last_name": "Захарова",
+    "patronymic": "Павловна",
+    "comment": "Оформляла возврат товара, но осталась довольна обслуживанием."
+  }
+},
+{
+  "model": "letters.customer",
+  "pk": 11,
+  "fields": {
+    "email": "vladimir.morozov@example.com",
+    "first_name": "Владимир",
+    "last_name": "Морозов",
+    "patronymic": "Дмитриевич",
+    "comment": "Интересуется новинками и часто просматривает каталог."
+  }
+},
+{
+  "model": "letters.customer",
+  "pk": 12,
+  "fields": {
+    "email": "ekaterina.andreeva@example.com",
+    "first_name": "Екатерина",
+    "last_name": "Андреева",
+    "patronymic": "Юрьевна",
+    "comment": "Заказывает товары для всей семьи, активно участвует в опросах."
+  }
+}
+]

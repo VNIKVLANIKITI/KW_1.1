@@ -1,0 +1,8 @@
+{% extends 'letters/base.html' %}
+        {% block content %}
+        <form action="{% url 'logout' %}" method="post">
+          {% csrf_token %}
+          <button type="submit">Выйти</button>
+      </form>
+      
+            {% endblock %}
